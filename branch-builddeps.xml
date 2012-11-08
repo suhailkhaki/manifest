@@ -6,7 +6,7 @@
           review="review.couchbase.org" />
   <remote name="buildtools" fetch="git://github.com/suhailkhaki/"/>
   <default remote="couchbase" revision="master"/>
-  <project name="tlm" path="tlm" revision="master">
+  <project name="tlm" path="tlm" revision="master" remote="buildtools">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
 
